@@ -1,7 +1,7 @@
 package entity;
 
 
-public class Food {
+public class Food extends Category{
     private String ID;
     private String name;
     private String description;
@@ -66,6 +66,4 @@ public class Food {
     public void setCreateAt(String createAt) {
         this.createAt = createAt;
     }
-
-
 }
